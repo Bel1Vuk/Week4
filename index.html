@@ -35,7 +35,7 @@
         Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
       <div class="container__email">
         
-        <form class="form" action="">
+        <form class="form" onsubmit="event.preventDefault(); validation();" >
         <input type="text" class="email" id="email" placeholder="Enter email" name="email" >
         <button class="button" type="button" onclick=validation()><p class="button__text black">Request Access</p></button>
         <div class="email__message" ><p id="email__message"></p></div>

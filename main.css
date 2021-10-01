@@ -5,6 +5,7 @@
 
 }
 /*ssss*/
+
 body{
     background-color: #121725;
 }
@@ -43,13 +44,13 @@ body{
     background-color: #121725;
     color:white;
     display: flex;
-    align-items: left;
     justify-content: flex-end;
     flex-direction: column;
     height: 510px;
     width: 730px;
     margin-right: -330px;
     margin-bottom: -79px;
+    
 
 
 
@@ -67,6 +68,8 @@ body{
     font-size: 52px;
     line-height: 62px;
     color:#54E6AF;
+    padding-bottom: 25px;
+    
 }
 .white{
     color:#FFFFFF; 
@@ -82,32 +85,24 @@ body{
 }
 
 .container__sponsors{
-    
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 50px;
     margin-top: 50px;
+    opacity: .7;
 }
 .sponsors__image{
     margin: 10px;
-    width: 140px;
-}
-.i1{
-    height: 25px;
-    width: 95px;
-}
-.i2{
-    height: 25px;
-    width: 90px;
+    width: auto;
 }
 
-.i3{
-    height: 25px;
-}
 .button{
     border-radius: 30px;
     height: 60px;
     width: 170px;
     margin-left: -177px;
+   
     border: 0;
     background-color: #54E6AF;
     
@@ -120,7 +115,7 @@ body{
 .button__text{
     font-family: 'Chivo', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 28px;
     color: #121725;
@@ -148,7 +143,11 @@ input{
 
 }
 .email__message{
-    color:white;
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
     width: 400px;
     height: 30px;
     margin-left: 35px;
@@ -227,15 +226,7 @@ input{
        margin-right: -180px;
 
     }
-.sponsors__image{
-    width: 150px;
-}
-.i1{
-    width: 90px;
-}
-.i2{
-    width: 85px;
-}
+
 .element1{
     display: block;
     margin-top: 130px;
@@ -268,12 +259,10 @@ input{
     margin-left: 120px;
 }
 .container__sponsors{
-    margin-left: 100px;
-}
-
+   display: inline-block;
 
 }
-
+}
 
 @media screen and (max-width:550px) {
     
@@ -452,4 +441,31 @@ input{
     .container{
         margin-top: -50px;
     }
+}
+@media  (min-width:1570px) {
+    .container{
+        margin: 0;
+        margin-right: -250px;
+        margin-top: 200px;
+    }
+    .picture{
+        margin-right: 100px;
+        
+    }
+    .picture__host{
+
+        width: 1000px;
+        height: auto;
+    }
+    .background{
+        margin-top: 100px;
+    }
+    
+}
+@media  (min-width:1800px) {
+    .picture{
+        margin-right: 300px;
+        
+    }
+
 }
